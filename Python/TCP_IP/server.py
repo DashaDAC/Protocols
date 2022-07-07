@@ -1,7 +1,7 @@
 import socket
 
 IP = "127.0.0.1"  # ip (localhost)
-PORT = 4444  # Port to listen
+PORT = 3333  # Port to listen
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((IP, PORT))
