@@ -21,8 +21,6 @@ IP = socket.gethostbyname(socket.gethostname())
 PORT = 1234  # Port to listen
 DISCONNECT_MAIL = "!DISCONNECT"
 
-client = []
-
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((IP, PORT))
 server.listen(5)
